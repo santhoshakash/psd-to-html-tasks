@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="main"> 
+        <header class="header">
+            <div class="container"> 
+              <div class="header-part1"> 
+            <div class="first-img"> 
+            <img class="header-img" src="images/logo.png" alt="logo" />
+            </div>
+            <div class="nav-search"> 
+            <nav class="navigation">
+                <ul class="main-nav">
+                    <li> <a class="main-nav-link" href="#">My Account <span>|</span> </a></li>
+                    <li><a class="main-nav-link" href="#">Wishlist<span>|</span></a></li>
+                    <li><a class="main-nav-link" href="#">My Cart <span>|</span></a></li>
+                    <li><a class="main-nav-link" href="#">Checkout <span>|</span></a></li>
+                    <li><a class="main-nav-link" href="#">Login</a></li>
+                </ul>
+            </nav> 
+            <div class="search-icon">
+                <input type="text" placeholder="Search here..." name="search" class="search">
+                <button type="submit" class="button1 "><img class="btnsearch" src="images/search.png" alt="bar"></button> 
+                <div class="cart"><img class="cart1" src="images/cart.jpg" alt="cart"></div>
+                <div class="first-price"><p class="total">Total<br><span>$600.00</span></p></div>
+            </div> 
+        </div>
+        </div>  
+        </div>
+        </header>
+        <div class="header2">
+            <div class="container">  
+             <div class="header-part2">  
+            <!-- <div class="category">
+                <div class="lines"><img src="images/lines.jpg"></div>
+                <div class="c1"> 
+                <p>CATEGORIES</p>
+            </div>
+            </div> -->
+            <div class="lists">
+                <div class="lists1">
+                    <a class="prod" href="#">CLOTHING</a>
+                    <a class="prod" href="#">ELECTRONICSHOT</a>
+                    <a class="prod" href="#">HEALTH&BEAUTY</a>
+                    <a class="prod" href="#">WATCHES</a>
+                    <a class="prod" href="#">JEWELLERY</a>
+                    <a class="prod"  href="#">SHOES</a>
+                </div>
+            </div>
+          </div> 
+        </div>
+    </div>
+<!-- first part -->
+<div class="container">
+    <!-- <div class="fpmain">  -->
+        <div class="first-part">
+            <div class="first-title1">
+                <h3 class="checkout">CHECKOUT</h3>
+            </div>
+            <div class="first-title2">
+                <p class="hsc">HOME / SHOP / CHECKOUT</p>
+            </div>
+        </div>
+        <hr class="hr"  size="1" width="100%" color="#e8e8e8" />
+     
+<!-- second form -->
+     <div class="second-form">
+         <div class="login">
+             <h3 class="log">LOGIN</h3>
+         </div>
+         <div class="second-form-sub">
+             <div class="sf1">
+                 <p>If you have an account,please enter your details in the boxes below,If you
+                     are a new customer please proceed to a Billing section.
+                 </p>
+             </div>
+             <div class="sf2">
+                 <div class="sf2-sub1">
+                    <input type="text" placeholder="User name or email" name="user" class="un gp">
+                </div>
+                <div class="sf2-sub2">
+                    <div class="pw"><input type="text" placeholder="Password" name="password" class="pw1 gp"></div>
+                    <div class="login1"><button class="logins1">LOG IN</button>
+                    </div>
+                </div>
+             </div>
+             <P class="forgot">Forgot <span>password</span> or<span> login?</span></P>
+         </div>
+     </div>
+<!-- Third form -->
+    <div class="third-form">
+        <div class="third-form1">
+            <div class="billing">
+                <h3 class="bd">BILLING DETAILS</h3>
+            </div>
+            <div class="third-details1">
+                <div class="third-subdetails1"> 
+                    <div class="third1"><input type="text" placeholder="First name" name="name" class="ts ts1 gp"></div>
+                    <div class="third2"><input type="text" placeholder="Email" name="email" class="ts ts2 gp"></div>
+                     
+                </div>
+                <div class="third-subdetails2"> 
+                    <div class="third1"><input type="text" placeholder="Last name" name="name" class="ts ts1 gp"></div>
+                    <div class="third2"><input type="text" placeholder="Phone" name="Phone" class="ts ts2 gp"></div>
+                </div>
+            </div>
+            <div class="third-details2 details3">
+                <input type="text" placeholder="Address1" name="Address" class="addr1 gp">
+            </div>
+            <div class="third-details2 details4">
+                <input type="text" placeholder="Address2" name="Address" class="addr1 gp">
+            </div>
+            <div class="third-details3">
+                 <!-- <div class="third-subdetails3">  -->
+                   <!--  <div class="third3"><input type="text" placeholder="Country" name="name" class="ts ts3"></div>
+                    <div class="third4"><input type="text" placeholder="State/Province" name="state" class="ts ts4"></div>
+                
+                <div class="third-subdetails4"> 
+                    <div class="third3"><input type="text" placeholder="City" name="city" class="ts ts3"></div>
+                    <div class="third4"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4"></div>
+                </div> -->
+                <div class="third-subdetails3"> 
+                <select id="country" name="country" class="third3 gp">
+                    <option class="select" disabled selected>Country</option>
+                    <option value="country">country</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="American Samoa">American Samoa</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Anguilla">Anguilla</option>
+                    <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Aruba">Aruba</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Bahamas">Bahamas</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                  </select>
+                </div>
+                <div class="third-subdetails4"> 
+                    <select id="country" name="country" class="third4 gp">
+                        <option class="select" disabled selected>City</option>
+                        <option value="country">country</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="American Samoa">American Samoa</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Anguilla">Anguilla</option>
+                        <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Aruba">Aruba</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Azerbaijan">Azerbaijan</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Bahrain">Bahrain</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                      </select>
+                    </div>
+            </div>
+            <div class="third-details4"> 
+                <div class="third-subdetails5"><input type="text" placeholder="State/Province" name="city" class="ts ts3 gp"></div>
+                <div class="third-subdetails6"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4 gp"></div>
+            </div>
+            <div class="continue">
+                <button class="cont">CONTINUE</button>
+            </div>
+
+        </div> 
+        <div class="third-form2&3">
+            <div class="third-form2">
+                <div class="coupon">
+                    <h3 class="cc">COUPON CODE</h3>
+                </div>
+                <div class="coupon-details">
+                    <div class="coupon-para">
+                        <p class="coupon-p">Enter your apply coupon here</p>
+                    </div>
+                    <div class="empty-bar">
+                        <input type="text" placeholder="" name="details" class="bar gp">
+                        <p class="code">Use code:<span>S12f0A</span> (-10%)</p>
+                    </div>
+                    <div class="apply-button">
+                        <button class="apply">Apply</button>
+                    </div>
+                </div>
+            </div>
+            <div class="third-form3">
+                <div class="cart-total">
+                    <h3 class="ct">CART-TOTAL</h3>
+                </div>
+                <div class="cart-details">
+                    <div class="cart-details1">
+                        <div class="cd1 cd"><p class="cd-sub1">Subtotal</p></div>
+                        <div class="dol1 dol"><p class="dol-sub1">$474.99</p></div>
+                    </div>
+                    <hr class="hr1"  size="1" width="100%" color="#e8e8e8" />
+                    <div class="cart-details1">
+                        <div class="cd2 cd">Shipping Charge</div>
+                        <div class="dol2 dol">Free Shipping</div>
+                    </div>
+                    <hr class="hr1"  size="1" width="100%" color="#e8e8e8" />
+                    <div class="cart-details1">
+                        <div class="cd3 cd">Coupon Code</div>
+                        <div class="dol3 dol">-25%</div>
+                    </div>
+                    <hr class="hr1"  size="1" width="100%" color="#e8e8e8" />
+                    <div class="cart-details1">
+                        <div class="cd4 ">Grand Total</div>
+                        <div class="dol4">$356.25</div>
+                    </div>
+                    <div class="checkout1">
+                        <button class="checkout1-btn">CHECKOUT</button>
+                    </div>
+                     
+                    <!-- <div class="cart-details1">
+                        <div class="cd">Subtotal</div>
+                        <div class="cd">Shipping Charge</div>
+                        <div class="cd">Coupon Code</div>
+                        <div class="cd">Grand Total</div>
+                    </div>
+                    <div class="cart-details2">
+                        <div class="dol">$474.99</div>
+                        <div class="dol">Free Shipping</div>
+                        <div class="dol">-25%</div>
+                        <div class="dol">$356.25</div>
+                    </div> -->
+                </div>
+             </div>
+            
+        </div>
+    </div>
+    <!-- </div> -->
+<!-- fourth-form -->
+    <div class="fourth-form">
+        <div class="payment-card">
+            <h3 class="pay-card">PAYMENT CARD</h3>
+        </div>
+        <div class="fourth-content">
+            <div class=" fourth-details1">
+                <div class="fourth-picture">
+                    <img class="fpic" src="/images/mastercard.jpg" alt="master">
+                    <img class="fpic" src="/images/visa.jpg" alt="visa">
+                    <img class="fpic" src="/images/maestro.jpg" alt="mastero">
+                    <img class="fpic" src="/images/paypal.jpg" alt="paypal">
+                </div>
+                <div class="fourth-text">
+                    <p class="pm">Please select a payment method</p>
+                </div>
+            </div>
+            <div class="fourth-details2"> 
+                <div class="fourth1"><input type="text" placeholder="Credit Card Number" name="cc number" class="fs fs1 gp"></div>
+                <div class="fourth2"><input type="text" placeholder="Cardholder name" name="card name" class="fs fs2 gp"></div>
+            </div>
+            <div class="expiry-security">
+                <div class="expiry-section"> 
+                <div class="Expiry">
+                    <div class="exp1">Expiration date:</div>
+                </div>
+                <div class="mont">
+                    <select id="month" name="month" class="mont1 gp">
+                        <option class="select" disabled selected>Month</option>
+                        <option value="January">January</option>
+                        <option value="Februar">February</option>
+                        <option value="march">march</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="Argentina">September</option>
+                        <option value="Armenia">October</option>
+                        <option value="Aruba">November</option>
+                        <option value="Australia">December</option>
+                    </select>
+                </div>
+                <div class="yr">
+                    <select id="year" name="year" class="yr1 gp">
+                        <option class="select" disabled selected>Year</option>
+                        <option value="country">2010</option>
+                        <option value="Albania">2011</option>
+                        <option value="Algeria">2012</option>
+                        <option value="American Samoa">2013</option>
+                        <option value="Andorra">2014</option>
+                        <option value="Angola">2015</option>
+                        <option value="Anguilla">2016</option>
+                        <option value="Antigua & Barbuda">2017</option>
+                        <option value="Argentina">2018</option>
+                        <option value="Armenia">2019</option>
+                        <option value="Aruba">2020</option>
+                        <option value="Australia">2021</option>
+                    </select>
+                </div>
+                 
+            </div>
+            <div class="security">
+                <label for="security-code1">Security Code:</label>
+                <input type="text" id="security" name="securitycode" placeholder="xxx" class="security-code2 gp"></div>
+            </div>
+            <div class="fourth-details3">
+                <input type="text" placeholder="Billing address 1" name="Address" class="baddr1 gp">
+            </div>
+            <div class="fourth-details3">
+                <input type="text" placeholder="Billing address 2 (Optional)" name="Address" class="baddr1 gp">
+            </div>
+            <div class="fourth-details4">
+                <!-- <div class="third-subdetails3">  -->
+                  <!--  <div class="third3"><input type="text" placeholder="Country" name="name" class="ts ts3"></div>
+                   <div class="third4"><input type="text" placeholder="State/Province" name="state" class="ts ts4"></div>
+               
+               <div class="third-subdetails4"> 
+                   <div class="third3"><input type="text" placeholder="City" name="city" class="ts ts3"></div>
+                   <div class="third4"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4"></div>
+               </div> -->
+               <div class="fourth-subdetails3"> 
+               <select id="country" name="country" class="fourth3 gp">
+                   <option class="select" disabled selected>Country</option>
+                   <option value="country">country</option>
+                   <option value="Albania">Albania</option>
+                   <option value="Algeria">Algeria</option>
+                   <option value="American Samoa">American Samoa</option>
+                   <option value="Andorra">Andorra</option>
+                   <option value="Angola">Angola</option>
+                   <option value="Anguilla">Anguilla</option>
+                   <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                   <option value="Argentina">Argentina</option>
+                   <option value="Armenia">Armenia</option>
+                   <option value="Aruba">Aruba</option>
+                   <option value="Australia">Australia</option>
+                   <option value="Austria">Austria</option>
+                   <option value="Azerbaijan">Azerbaijan</option>
+                   <option value="Bahamas">Bahamas</option>
+                   <option value="Bahrain">Bahrain</option>
+                   <option value="Bangladesh">Bangladesh</option>
+                 </select>
+               </div>
+               <div class="fourth-subdetails4"> 
+                   <select id="country" name="country" class="fourth4 gp">
+                       <option class="select" disabled selected>City</option>
+                       <option value="country">country</option>
+                       <option value="Albania">Albania</option>
+                       <option value="Algeria">Algeria</option>
+                       <option value="American Samoa">American Samoa</option>
+                       <option value="Andorra">Andorra</option>
+                       <option value="Angola">Angola</option>
+                       <option value="Anguilla">Anguilla</option>
+                       <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                       <option value="Argentina">Argentina</option>
+                       <option value="Armenia">Armenia</option>
+                       <option value="Aruba">Aruba</option>
+                       <option value="Australia">Australia</option>
+                       <option value="Austria">Austria</option>
+                       <option value="Azerbaijan">Azerbaijan</option>
+                       <option value="Bahamas">Bahamas</option>
+                       <option value="Bahrain">Bahrain</option>
+                       <option value="Bangladesh">Bangladesh</option>
+                     </select>
+                   </div>
+           </div>
+           <div class="fourth-details4"> 
+               <div class="fourth-subdetails5"><input type="text" placeholder="State/Province" name="city" class="ts ts3 gp"></div>
+               <div class="fourth-subdetails6"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4 gp"></div>
+           </div>
+           <div class="continue">
+               <button class="cont">CONTINUE</button>
+           </div>
+            
+        </div>
+    </div>
+</div>
+ <!-- footer section -->
+ <div class="footer-section">
+    <!-- footer1 -->
+    <div class="footer1">
+    <div class="container"> 
+        <div class="sub-footer1">
+            <div class="footer-img">
+                <img class="fimg fimgA" src="images/brand-01.png" alt="brand1">
+                <img class="fimg" src="images/brand-02.png" alt="brand1">
+                <img class="fimg" src="images/brand-03.png" alt="brand1">
+                <img class="fimg" src="images/brand-04.png" alt="brand1">
+                <img class="fimg" src="images/brand-05.png" alt="brand1">
+                <img class="fimg fimgF" src="images/brand-06.png" alt="brand1">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- footer2 -->
+    <div class="footer2">
+        <div class="container">
+                <div class="row">
+                    <div class="footer-col col1">
+                         <img class="footer-img1" src="images/logo.png">
+                          <p class="footer-para">This is Photoshop version of Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, laborum..</p>
+                          <div class="icon-1"> 
+                          <a class="icon" href="#"><i class="fas fa-map-marker-alt fi"></i> 0123,Main road,Your City,NY 12345<br></a>
+                          <a class="icon" href="#"> <i class="fas fa-phone-alt fi"></i>(0000) 2345-2314567<br></a>
+                          <a class="icon" href="#">  <i class="fas fa-envelope fi "></i>info@predicts.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-col col2">
+                        <h4 class="footer-info">INFORMATION</h4>
+                        <ul class="conditions list">
+                            <li><a class="conditions" href="#"> Our Story</a></li>
+                            <li><a class="conditions" href="#">Privacy Policy</a></li>
+                            <li><a class="conditions" href="#">Terms and Conditions</a></li>
+                            <li><a class="conditions" href="#">Shipping & Delivery</a></li>
+                            <li><a class="conditions" href="#">Careers</a></li>
+                            <li><a class="conditions" href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col3">
+                        <h4 class="social">OUR SOCIAL</h4>
+                        <div class="icon-2"> 
+                        <ul class="sub-icon1">
+                            <li><a class="si" href="#"><i class="fab fa-google-plus-g fi"></i>Google</a></li>
+                            <li><a class="si" href="#"><i class="fab fa-pinterest fi"></i>Pintrest</a></li>
+                            <li><a class="si" href="#"><i class="fab fa-vimeo-v fi"></i>Vimeo</a></li>
+                            <li><a class="si" href="#"><i class="fab fa-instagram fi"></i>Instagram</a></li>
+                        </ul>
+
+                        <ul class="sub-icon2">
+                            <li><a class="si" href="#"><i class="fab fa-facebook-f fi"></i>Facebook</a></li>
+                            <li><a class="si" href="#"><i class="fab fa-twitter fi"></i>Twitter</a></li>
+                            <li><a class="si" href="#"><i class="fas fa-rss fi"></i>Rss</a></li>
+                            <li><a class="si" href="#"><i class="fab fa-youtube fi"></i>Youtube</a></li>
+                        </ul>
+
+                    </div>
+                    </div>
+                    <div class="footer-col col4">
+                        <div class="timing"> 
+                        <h4 class="OT">OPENING TIME</h4>
+                        <div class="time">
+                            <i class="far fa-clock fi fi1"></i>
+                            <p>Monday-Friday:8:30 - 9:30pm<br>Sat-Sun:9.00-10.00pm</p>
+                            </div>
+                        </div>
+                        <div class="payment">
+                            <h4>PAYMENT OPTION</h4>
+                            <img class="pay" src="images/payment-icon-01.png" alt="payment"><br>
+                            <img class="pay" src="images/payment-icon-02.png" alt="payment">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer3">
+                <div class="container">
+                    <div class="footer3-sub"> 
+                    <div class="bottom-words">
+                        <a class="site" href="#">Sitemap</a>
+                        <a class="site" href="#">Search</a>
+                        <a class="site" href="#">Searchs</a>
+                        <a class="site" href="#">Advance</a>
+                        <a class="site" href="#">Searches</a>
+                        <a class="site" href="#">ContactUs</a>
+                    </div>
+                    <div class="copyrights"> 
+                        <p class="cp1">&copy 2018 marketsupply.com | All Rights Reserved.</p>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+</main>
+</body>
+</html>
