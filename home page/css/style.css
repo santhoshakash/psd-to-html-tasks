@@ -9,12 +9,12 @@
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    
+    font-family: 'Lato', sans-serif;
 }
 /* header section */
 .header{
     background-color:#222222; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 /* .header-img{
     padding-left: 75%;
@@ -124,6 +124,7 @@ margin-top: 4px;
 .prod{
     color: #fff;
     text-decoration: none;
+    font-weight: 300;
 }
 /* first section */
 .main-2{
@@ -197,6 +198,10 @@ margin-top: 4px;
     width: 115px;
     margin-right: 50px;
     margin-left: 26px;
+    padding-top: 12px;
+}
+.fimg1{
+    padding-top: 13px;
 }
 .fimgA{
     padding-left: 10px;
@@ -296,6 +301,7 @@ ul{
 .fi{
     color: #f00e34;
     padding-right: 10px;
+    padding-top: 10px
 }
 /* TIME AND PAYMENT */
 .OT{
@@ -353,7 +359,7 @@ ul{
 .second-sub{
     background-color: #fff;
     width: 294px;
-    padding-left: 21px;
+    padding-left: 28px;
     padding-top: 22px;
     margin-bottom: 20px;
 }
@@ -365,6 +371,9 @@ ul{
 }
 .hr{
     margin-bottom: 18px;
+}
+.hrf{
+    margin-bottom: 10px;
 }
 .second-sub-letter{
     text-align: center;
@@ -391,10 +400,8 @@ ul{
 .second-side{
     background-color: #fff;
     width: 834px;
-     
     margin-left: 42px;
-    padding-left: 40px;
-     
+    padding-left: 21px;
     margin-bottom: 21px;
 }
 .p1{
@@ -404,6 +411,7 @@ ul{
     display: flex;
     padding-top: 23px;
     padding-bottom: 20px;
+    align-items: center;
 }
 .sc2{
     display: flex;
@@ -415,7 +423,7 @@ ul{
     font-size: 15px;
 }
 .np1{
-    color: #3d3d3d;;
+    color: #3d3d3d;
     padding-top: 18px;
     padding-left: 20px;
 }
@@ -430,7 +438,7 @@ ul{
 /* buttons */
 .owl-prev{
     position: absolute;
-    bottom: 115%;
+    bottom: 114%;
     left: 77%;
     border-radius: 50%;
     width: 20px;
@@ -441,15 +449,16 @@ ul{
 .owl-prev:hover{
     background-color: #f00e34;
 }
- .owl-prev{
+.owl-prev{
      background-color:#a5a5a5;
 }
 .owl-prev span{
     color: #fff;
+    font-size: 18px;
 }
 .owl-next{
     position: absolute;
-    bottom: 115%;
+    bottom: 114%;
     left: 85%;
     border-radius: 50%;
     width: 20px;
@@ -464,6 +473,7 @@ ul{
 }
 .owl-next span{
     color: #fff;
+    font-size: 18px;
 }
 .owl-carousel2 .owl-nav .owl-prev{
     left: 92%;
@@ -539,7 +549,7 @@ ul{
 /* fourth Section */
 .fourth-sub{
     width: 295px;
-    height: 268px;
+    height: 280px;
     background-color: #fff;
     margin-top: 35px;
     margin-bottom: 18px;
@@ -556,8 +566,8 @@ ul{
 }
 .sign{
     padding-bottom:30px;
-    font-weight: 100;
-    color: #3d3d3dd5;
+    color: #3d3d3d;
+    font-weight: 300;
 }
 .box{
     width: 90%;
@@ -572,11 +582,12 @@ ul{
 }
 .button2{
     width:127px;
-    height: 46px;
+    height: 45px;
     border-radius: 20px 20px 20px 20px;
     background-color: #f00e34;
     color: #fff;
     border: none;
+    font-size: 18px;
 }
 .fourth-section{
     display: flex;
@@ -586,7 +597,7 @@ ul{
     width: 834px;
     height: auto;
     margin-left: 42px;
-    padding-left: 40px;
+    padding-left: 22px;
     margin-top: -11%;
     margin-bottom: 43px;
 }
@@ -597,6 +608,7 @@ ul{
     display: flex;
     padding-top: 23px;
     padding-bottom: 20px;
+    align-items: center;
 }
 .fc2{
     display: flex;
