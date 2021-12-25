@@ -5,6 +5,7 @@
 }
 .main{
     background-color: hsl(0, 0%, 95%);
+    font-family: 'Lato', sans-serif;
 }
 .container{
     max-width: 1170px;
@@ -52,12 +53,12 @@
 }
 .search{
 width: 450px;
-height: 34px;
+height: 38px;
 border: none;
 padding-left: 15px; 
 border: none;
-border-radius: 3px 1px 1px 3px;
-margin-top: 4px;
+border-radius: 5px 1px 1px 5px;
+/* margin-top: 4px; */
 }
 .subsearch{
     color: #fff;
@@ -65,27 +66,33 @@ margin-top: 4px;
 .button1{
     float: left;
     width: 50px;
-    height: 34px;
+    height: 38px;
     padding: 6px;
     background: #f00e34;
     color: white;
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
-    border-radius: 0 3px 3px 0;
-    margin-top: 4px;
+    border-radius: 0 5px 5px 0;
+    /* margin-top: 4px; */
 }
 .btnsearch {
     width: 17px;
 }
-.first-price{
-    color:  grey;
+.total{
+    color:  #fff;
+    font-size :11px;
     /* text-align: center; */
+    font-weight: 300;
 }
-
-.first-price span{
+.first-price{
+    text-align: center;
+}
+.total span{
     color: #fff;
     margin-left: 4px;
+    font-size: 14px;
+    font-weight: 400;
 }
 .cart{
     background-color:  #222222;
@@ -368,6 +375,7 @@ ul{
 }
 .hd{
     padding-bottom: 22px;
+    font-weight: 400;
 }
 .hr{
     margin-bottom: 18px;
@@ -415,6 +423,9 @@ ul{
     padding-top: 23px;
     padding-bottom: 20px;
     align-items: center;
+}
+.np{
+    font-weight: 400;
 }
 .sc2{
     display: flex;
@@ -519,6 +530,7 @@ ul{
 }
 .sd{
     padding-bottom: 22px;
+    font-weight: 400;
 }
 .hr{
     margin-bottom: 18px;
@@ -559,7 +571,7 @@ ul{
 /* fourth Section */
 .fourth-sub{
     width: 295px;
-    height: 280px;
+    height: 288px;
     background-color: #fff;
     margin-top: 35px;
     margin-bottom: 18px;
@@ -570,6 +582,7 @@ ul{
 }
 .news{
     padding-bottom: 10px;
+    font-weight: 400;
 }
 .signup{
     padding-left: 19px;
@@ -634,6 +647,9 @@ ul{
     padding-top: 18px;
     padding-left: 20px;
 }
+.lp{
+    font-weight: 400;
+}
 .owl-carousel2 .owl-nav .owl-prev{
     left: 92%;
 }
@@ -650,7 +666,7 @@ ul{
 /* Fifth section */
 .fifth-img1{
     width: 295px;
-    padding-top: 20px
+    margin-top: 20px;
 }
 .fifth-section{
     display: flex;
@@ -692,7 +708,8 @@ ul{
 } */
 .feat{
     padding-top: 18px;
-    padding-bottom: 16px
+    padding-bottom: 16px;
+    font-weight: 400;
 }
 .fifth-p1{
     color:  #3d3d3d;;
@@ -722,4 +739,7 @@ ul{
 }
 .owl-carousel3 .owl-nav .owl-next{
     left: 95%;
+}
+.shadow{
+    box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.315);
 }
