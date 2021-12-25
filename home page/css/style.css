@@ -407,6 +407,9 @@ ul{
 .p1{
     padding-top: 10px; 
 }
+.second-star{
+    padding-top: 10px;
+}
 .second-content{
     display: flex;
     padding-top: 23px;
@@ -432,14 +435,15 @@ ul{
 }
 .st{
     padding-left: 33px;
-    padding-top: 4px;
+    padding-top: 8px;
+    padding-bottom: 20px;
 }
 
 /* buttons */
 .owl-prev{
     position: absolute;
     bottom: 114%;
-    left: 77%;
+    left: 76%;
     border-radius: 50%;
     width: 20px;
     height: 21px;
@@ -454,7 +458,9 @@ ul{
 }
 .owl-prev span{
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
+    display: block;
+    margin-top:-8px;
 }
 .owl-next{
     position: absolute;
@@ -473,13 +479,17 @@ ul{
 }
 .owl-next span{
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
+    display: block;
+    margin-top:-8px;
 }
 .owl-carousel2 .owl-nav .owl-prev{
     left: 92%;
+    bottom: 112%;
 }
 .owl-carousel2 .owl-nav .owl-next{
     left: 95%;
+    bottom: 112%;
 }
 /* .owl-carousel2{
     display: flex;
@@ -598,7 +608,7 @@ ul{
     height: auto;
     margin-left: 42px;
     padding-left: 22px;
-    margin-top: -11%;
+    margin-top: -13%;
     margin-bottom: 43px;
 }
 .fp1{
@@ -653,7 +663,7 @@ ul{
 }
 .fifth-side2{
     width: 834px;
-    height: 393px;
+    height: 410px;
     background-color: #fff;
     padding-left: 32px;
     margin-top: 37px;
@@ -686,7 +696,7 @@ ul{
 }
 .fifth-p1{
     color:  #3d3d3d;;
-    padding-top: 18px;
+    /* padding-top: 18px; */
     padding-left: 20px;
 }
 .fifth-sub-img1{
