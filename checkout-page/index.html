@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Josefin+Sans:wght@300&family=Kumbh+Sans:wght@100&family=Lato:wght@100;300;400&family=Lexend+Deca:wght@300&family=Manrope:wght@300&family=Poppins:wght@600&family=Red+Hat+Display&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Josefin+Sans:wght@300&family=Kumbh+Sans:wght@100&family=Lato:wght@100;300;400;700;900&family=Lexend+Deca:wght@300&family=Manrope:wght@300&family=Poppins:wght@600&family=Red+Hat+Display&display=swap" rel="stylesheet">
     <title>Checkout</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -94,27 +97,21 @@
      </div>
 <!-- Third form -->
     <div class="third-form">
+        <div class="third-first section"> 
         <div class="third-form1 shadow">
             <div class="billing">
                 <h3 class="bd">BILLING DETAILS</h3>
             </div>
-            <div class="third-details1">
-                <div class="third-subdetails1"> 
-                    <div class="third1"><input type="text" placeholder="First name" name="name" class="ts ts1 gp"></div>
-                    <div class="third2"><input type="text" placeholder="Email" name="email" class="ts ts2 gp"></div>
-                     
-                </div>
-                <div class="third-subdetails2"> 
-                    <div class="third1"><input type="text" placeholder="Last name" name="name" class="ts ts1 gp"></div>
-                    <div class="third2"><input type="text" placeholder="Phone" name="Phone" class="ts ts2 gp"></div>
-                </div>
-            </div>
-            <div class="third-details2 details3">
-                <input type="text" placeholder="Address1" name="Address" class="addr1 gp">
-            </div>
-            <div class="third-details2 details4">
-                <input type="text" placeholder="Address2" name="Address" class="addr1 gp">
-            </div>
+            <input type="text" placeholder="First name" name="name" class="ts ts1 tsname gp">
+            <input type="text" placeholder="Last name" name="name" class=" ts ts2 gp">
+            
+            <input type="text" placeholder="Email" name="mail" class="ts ts1 gp"> 
+            <input type="text" placeholder="Phone" name="Phone" class="ts ts2 gp"> 
+            
+            <input type="text" placeholder="Address1" name="Address" class="addr1 gp">
+
+            <input type="text" placeholder="Address2" name="Address" class="addr1 gp">
+
             <div class="third-details3">
                  <!-- <div class="third-subdetails3">  -->
                    <!--  <div class="third3"><input type="text" placeholder="Country" name="name" class="ts ts3"></div>
@@ -124,7 +121,7 @@
                     <div class="third3"><input type="text" placeholder="City" name="city" class="ts ts3"></div>
                     <div class="third4"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4"></div>
                 </div> -->
-                <div class="third-subdetails3"> 
+                 
                 <select id="country" name="country" class="third3 gp">
                     <option class="select" disabled selected>Country</option>
                     <option value="country">country</option>
@@ -145,8 +142,8 @@
                     <option value="Bahrain">Bahrain</option>
                     <option value="Bangladesh">Bangladesh</option>
                   </select>
-                </div>
-                <div class="third-subdetails4"> 
+                 
+                
                     <select id="country" name="country" class="third4 gp">
                         <option class="select" disabled selected>City</option>
                         <option value="country">country</option>
@@ -167,17 +164,153 @@
                         <option value="Bahrain">Bahrain</option>
                         <option value="Bangladesh">Bangladesh</option>
                       </select>
-                    </div>
+                     
             </div>
-            <div class="third-details4"> 
-                <div class="third-subdetails5"><input type="text" placeholder="State/Province" name="city" class="ts ts3 gp"></div>
-                <div class="third-subdetails6"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4 gp"></div>
-            </div>
+             
+                 <input type="text" placeholder="State/Province" name="city" class="ts ts5 gp"> 
+                 <input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts6  gp">
+             
             <div class="continue">
                 <button class="cont">CONTINUE</button>
             </div>
 
         </div> 
+        <div class="fourth-form shadow">
+            <div class="payment-card">
+                <h3 class="pay-card">PAYMENT CARD</h3>
+            </div>
+            <div class="fourth-content">
+                <div class=" fourth-details1">
+                    <div class="fourth-picture">
+                        <img class="fpic" src="images/mastercard.png" alt="master">
+                        <img class="fpic fpic-visa" src="images/visa.png" alt="visa">
+                        <img class="fpic" src="images/mastero.png" alt="mastero">
+                        <img class="fpic" src="images/paypal.png" alt="paypal">
+                    </div>
+                    <div class="fourth-text">
+                        <p class="pm">Please select a payment method</p>
+                    </div>
+                </div>
+                <div class="fourth-details2"> 
+                    <div class="fourth1"><input type="text" placeholder="Credit Card Number" name="cc number" class="fs fs1 gp"></div>
+                    <div class="fourth2"><input type="text" placeholder="Cardholder name" name="card name" class="fs fs2 gp"></div>
+                </div>
+                <div class="expiry-security">
+                    <div class="expiry-section"> 
+                    <div class="Expiry">
+                        <div class="exp1">Expiration date:</div>
+                    </div>
+                    <div class="mont">
+                        <select id="month" name="month" class="mont1 gp">
+                            <option class="select" disabled selected>Month</option>
+                            <option value="January">January</option>
+                            <option value="Februar">February</option>
+                            <option value="march">march</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="Argentina">September</option>
+                            <option value="Armenia">October</option>
+                            <option value="Aruba">November</option>
+                            <option value="Australia">December</option>
+                        </select>
+                    </div>
+                    <div class="yr">
+                        <select id="year" name="year" class="yr1 gp">
+                            <option class="select" disabled selected>Year</option>
+                            <option value="country">2010</option>
+                            <option value="Albania">2011</option>
+                            <option value="Algeria">2012</option>
+                            <option value="American Samoa">2013</option>
+                            <option value="Andorra">2014</option>
+                            <option value="Angola">2015</option>
+                            <option value="Anguilla">2016</option>
+                            <option value="Antigua & Barbuda">2017</option>
+                            <option value="Argentina">2018</option>
+                            <option value="Armenia">2019</option>
+                            <option value="Aruba">2020</option>
+                            <option value="Australia">2021</option>
+                        </select>
+                    </div>
+                     
+                </div>
+                <div class="security">
+                    <label for="security-code1">Security Code:</label>
+                    <input type="text" id="security" name="securitycode" placeholder="xxx" class="security-code2 gp"></div>
+                </div>
+                <div class="fourth-details3">
+                    <input type="text" placeholder="Billing address 1" name="Address" class="baddr1 gp">
+                </div>
+                <div class="fourth-details3">
+                    <input type="text" placeholder="Billing address 2 (Optional)" name="Address" class="baddr1 gp">
+                </div>
+                <div class="fourth-details4">
+                    <!-- <div class="third-subdetails3">  -->
+                      <!--  <div class="third3"><input type="text" placeholder="Country" name="name" class="ts ts3"></div>
+                       <div class="third4"><input type="text" placeholder="State/Province" name="state" class="ts ts4"></div>
+                   
+                   <div class="third-subdetails4"> 
+                       <div class="third3"><input type="text" placeholder="City" name="city" class="ts ts3"></div>
+                       <div class="third4"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4"></div>
+                   </div> -->
+                   <div class="fourth-subdetails3"> 
+                   <select id="country" name="country" class="fourth3 gp">
+                       <option class="select" disabled selected>Country</option>
+                       <option value="country">country</option>
+                       <option value="Albania">Albania</option>
+                       <option value="Algeria">Algeria</option>
+                       <option value="American Samoa">American Samoa</option>
+                       <option value="Andorra">Andorra</option>
+                       <option value="Angola">Angola</option>
+                       <option value="Anguilla">Anguilla</option>
+                       <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                       <option value="Argentina">Argentina</option>
+                       <option value="Armenia">Armenia</option>
+                       <option value="Aruba">Aruba</option>
+                       <option value="Australia">Australia</option>
+                       <option value="Austria">Austria</option>
+                       <option value="Azerbaijan">Azerbaijan</option>
+                       <option value="Bahamas">Bahamas</option>
+                       <option value="Bahrain">Bahrain</option>
+                       <option value="Bangladesh">Bangladesh</option>
+                     </select>
+                   </div>
+                   <div class="fourth-subdetails4"> 
+                       <select id="country" name="country" class="fourth4 gp">
+                           <option class="select" disabled selected>City</option>
+                           <option value="country">country</option>
+                           <option value="Albania">Albania</option>
+                           <option value="Algeria">Algeria</option>
+                           <option value="American Samoa">American Samoa</option>
+                           <option value="Andorra">Andorra</option>
+                           <option value="Angola">Angola</option>
+                           <option value="Anguilla">Anguilla</option>
+                           <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                           <option value="Argentina">Argentina</option>
+                           <option value="Armenia">Armenia</option>
+                           <option value="Aruba">Aruba</option>
+                           <option value="Australia">Australia</option>
+                           <option value="Austria">Austria</option>
+                           <option value="Azerbaijan">Azerbaijan</option>
+                           <option value="Bahamas">Bahamas</option>
+                           <option value="Bahrain">Bahrain</option>
+                           <option value="Bangladesh">Bangladesh</option>
+                         </select>
+                       </div>
+               </div>
+               <div class="fourth-details4"> 
+                   <div class="fourth-subdetails5"><input type="text" placeholder="State/Province" name="city" class="ts ts3 gp"></div>
+                   <div class="fourth-subdetails6"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4 gp"></div>
+               </div>
+               <div class="continue">
+                   <button class="cont">CONTINUE</button>
+               </div>
+                
+            </div>
+        </div>
+    </div>
         <div class="third-form2&3">
             <div class="third-form2 shadow">
                 <div class="coupon">
@@ -192,13 +325,13 @@
                         <p class="code">Use code:<span>S12f0A</span> (-10%)</p>
                     </div>
                     <div class="apply-button">
-                        <button class="apply">Apply</button>
+                        <button class="apply">APPLY</button>
                     </div>
                 </div>
             </div>
             <div class="third-form3 shadow">
                 <div class="cart-total">
-                    <h3 class="ct">CART-TOTAL</h3>
+                    <h3 class="ct">CART TOTAL</h3>
                 </div>
                 <div class="cart-details">
                     <div class="cart-details1">
@@ -243,141 +376,7 @@
     </div>
     <!-- </div> -->
 <!-- fourth-form -->
-    <div class="fourth-form shadow">
-        <div class="payment-card">
-            <h3 class="pay-card">PAYMENT CARD</h3>
-        </div>
-        <div class="fourth-content">
-            <div class=" fourth-details1">
-                <div class="fourth-picture">
-                    <img class="fpic" src="images/mastercard.png" alt="master">
-                    <img class="fpic fpic-visa" src="images/visa.png" alt="visa">
-                    <img class="fpic" src="images/mastero.png" alt="mastero">
-                    <img class="fpic" src="images/paypal.png" alt="paypal">
-                </div>
-                <div class="fourth-text">
-                    <p class="pm">Please select a payment method</p>
-                </div>
-            </div>
-            <div class="fourth-details2"> 
-                <div class="fourth1"><input type="text" placeholder="Credit Card Number" name="cc number" class="fs fs1 gp"></div>
-                <div class="fourth2"><input type="text" placeholder="Cardholder name" name="card name" class="fs fs2 gp"></div>
-            </div>
-            <div class="expiry-security">
-                <div class="expiry-section"> 
-                <div class="Expiry">
-                    <div class="exp1">Expiration date:</div>
-                </div>
-                <div class="mont">
-                    <select id="month" name="month" class="mont1 gp">
-                        <option class="select" disabled selected>Month</option>
-                        <option value="January">January</option>
-                        <option value="Februar">February</option>
-                        <option value="march">march</option>
-                        <option value="April">April</option>
-                        <option value="May">May</option>
-                        <option value="June">June</option>
-                        <option value="July">July</option>
-                        <option value="August">August</option>
-                        <option value="Argentina">September</option>
-                        <option value="Armenia">October</option>
-                        <option value="Aruba">November</option>
-                        <option value="Australia">December</option>
-                    </select>
-                </div>
-                <div class="yr">
-                    <select id="year" name="year" class="yr1 gp">
-                        <option class="select" disabled selected>Year</option>
-                        <option value="country">2010</option>
-                        <option value="Albania">2011</option>
-                        <option value="Algeria">2012</option>
-                        <option value="American Samoa">2013</option>
-                        <option value="Andorra">2014</option>
-                        <option value="Angola">2015</option>
-                        <option value="Anguilla">2016</option>
-                        <option value="Antigua & Barbuda">2017</option>
-                        <option value="Argentina">2018</option>
-                        <option value="Armenia">2019</option>
-                        <option value="Aruba">2020</option>
-                        <option value="Australia">2021</option>
-                    </select>
-                </div>
-                 
-            </div>
-            <div class="security">
-                <label for="security-code1">Security Code:</label>
-                <input type="text" id="security" name="securitycode" placeholder="xxx" class="security-code2 gp"></div>
-            </div>
-            <div class="fourth-details3">
-                <input type="text" placeholder="Billing address 1" name="Address" class="baddr1 gp">
-            </div>
-            <div class="fourth-details3">
-                <input type="text" placeholder="Billing address 2 (Optional)" name="Address" class="baddr1 gp">
-            </div>
-            <div class="fourth-details4">
-                <!-- <div class="third-subdetails3">  -->
-                  <!--  <div class="third3"><input type="text" placeholder="Country" name="name" class="ts ts3"></div>
-                   <div class="third4"><input type="text" placeholder="State/Province" name="state" class="ts ts4"></div>
-               
-               <div class="third-subdetails4"> 
-                   <div class="third3"><input type="text" placeholder="City" name="city" class="ts ts3"></div>
-                   <div class="third4"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4"></div>
-               </div> -->
-               <div class="fourth-subdetails3"> 
-               <select id="country" name="country" class="fourth3 gp">
-                   <option class="select" disabled selected>Country</option>
-                   <option value="country">country</option>
-                   <option value="Albania">Albania</option>
-                   <option value="Algeria">Algeria</option>
-                   <option value="American Samoa">American Samoa</option>
-                   <option value="Andorra">Andorra</option>
-                   <option value="Angola">Angola</option>
-                   <option value="Anguilla">Anguilla</option>
-                   <option value="Antigua & Barbuda">Antigua & Barbuda</option>
-                   <option value="Argentina">Argentina</option>
-                   <option value="Armenia">Armenia</option>
-                   <option value="Aruba">Aruba</option>
-                   <option value="Australia">Australia</option>
-                   <option value="Austria">Austria</option>
-                   <option value="Azerbaijan">Azerbaijan</option>
-                   <option value="Bahamas">Bahamas</option>
-                   <option value="Bahrain">Bahrain</option>
-                   <option value="Bangladesh">Bangladesh</option>
-                 </select>
-               </div>
-               <div class="fourth-subdetails4"> 
-                   <select id="country" name="country" class="fourth4 gp">
-                       <option class="select" disabled selected>City</option>
-                       <option value="country">country</option>
-                       <option value="Albania">Albania</option>
-                       <option value="Algeria">Algeria</option>
-                       <option value="American Samoa">American Samoa</option>
-                       <option value="Andorra">Andorra</option>
-                       <option value="Angola">Angola</option>
-                       <option value="Anguilla">Anguilla</option>
-                       <option value="Antigua & Barbuda">Antigua & Barbuda</option>
-                       <option value="Argentina">Argentina</option>
-                       <option value="Armenia">Armenia</option>
-                       <option value="Aruba">Aruba</option>
-                       <option value="Australia">Australia</option>
-                       <option value="Austria">Austria</option>
-                       <option value="Azerbaijan">Azerbaijan</option>
-                       <option value="Bahamas">Bahamas</option>
-                       <option value="Bahrain">Bahrain</option>
-                       <option value="Bangladesh">Bangladesh</option>
-                     </select>
-                   </div>
-           </div>
-           <div class="fourth-details4"> 
-               <div class="fourth-subdetails5"><input type="text" placeholder="State/Province" name="city" class="ts ts3 gp"></div>
-               <div class="fourth-subdetails6"><input type="text" placeholder="Zip/Postal Code" name="postal" class="ts ts4 gp"></div>
-           </div>
-           <div class="continue">
-               <button class="cont">CONTINUE</button>
-           </div>
-            
-        </div>
-    </div>
+   
 </div>
  <!-- footer section -->
  <div class="footer-section">
